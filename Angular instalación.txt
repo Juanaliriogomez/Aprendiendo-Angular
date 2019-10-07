@@ -1,0 +1,70 @@
+ANGULAR
+	-> Instalación:
+		Debemos tener instalado NodeJS para tener acceso a npm
+		A traves de npm y en la terminal de comandos y consola
+		ejecutamos el siguiente comando.
+			npm install -g @angular/cli
+
+		CLI -> commnad line interface https://cli.angular.io/
+
+		would you like to google privacy politics? (s/N)
+		-> comprovar la versión instalada:
+		ng -v
+		ng --version
+
+		
+	-> Crear proyecto angular
+		Creamos nuestra carpeta de nuestro proyecto. Accedemos a esta carpeta
+		por medio de la terminal
+			ng new nombre-proyecto
+
+	-> ejecutar el proyecto voy a la carpeta abriendola desde visual, luego new terminal
+	ng serve    enter y listo, puedes abri el navegador localhost:4200
+
+	* Creado por Gooogle, es un framework de JS que maneja el patrón MVC (modelo, vista, controlador
+	MVW (modelo, vista, whathever).
+
+	Se basa en sintaxis de Typescript y comprende html, css, sass entre otros.
+	Typescript es un conjunto basado en Javascript, es un lenguaje fuertemente tipado.
+
+	JS muestra el error en producción (consola navegador)
+	y ts (typescript) lo muestra en el desarrollo (consola editor código).
+
+	EJ
+		// Javascript
+		var nombre = "Juan"
+
+	Angular es ideal para la creación y mantenimiento de aplicativos web o onepages.
+	Angular > a React y Vue
+	Ejecuta la vista en nodejs, php, .net por su renderizado y optimización.
+	Permite crear plantillas con el comando CLI
+
+	 Carpetas creadas en angular
+		e2e end to end (archivos de testing y procesos de automatización
+		node modules hay librerias utilizadas en la app
+		src recursos nucleo de aplicativo a nicvel visual
+			carpeta app -> crear nuestros compomentes de angular ( dentro de sesta carepta tenemos solo un  elemento creado llamado app y por convension de angular
+				app.component.css ->
+				app.component.css ->
+				app.component.css -> 
+				app.component.ts -> Lógica del controlador de nuestra app
+				app.mdule.ts-> importación de librerias y declaración de componetes
+			 carpeta assets -> gitkeep -> Indica los archivos a mantener en nuestra app
+			Carpeta enviromente se refiere a la configuracíon de nuestra app
+			index.html render de todos los componentes que hemos creado, aquí se encuentra el simil de react
+			main.ts -> ng serve ejecuta para inicializar nuesytra app
+			polyfill.ts -> importa los cript nesesarios por angular para iniciar nuestra app
+			styles.css -> estilos globales de nuestra app
+			test.ts -> configuración de nuestro campo testing de nuestra app
+
+		editorconfig -> configuración editor código
+		gitignore -> ignorar docuumentos ocarpetas de nuestro repositorio git
+		angular.json  angular-cli.json -> rutas de acceso de un doc externo
+		packaage.json -> configuración general de la app
+		tsconfig.json -> establece la configuración  para el compilador de typescript
+		tslist.json -> revision de código para mantenimiento de errores de funcionalidad 
+		
+		
+
+		// Typescript
+		var nombre: String = "Juan"
